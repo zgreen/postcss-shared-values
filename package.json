@@ -1,0 +1,38 @@
+{
+  "name": "postcss-shared-values",
+  "version": "1.0.0",
+  "description": "A comma-separated shorthand for CSS properties that share the same value.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zgreen/postcss-shared-values"
+  },
+  "author": "Zach Green",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "postcss": "^6.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.6.0",
+    "jest": "^20.0.4",
+    "postcss-cli": "^4.1.0"
+  },
+  "keywords": [
+    "postcss-plugin",
+    "postcss plugin",
+    "postcss",
+    "css",
+    "shared values",
+    "values"
+  ],
+  "scripts": {
+    "example": "postcss example-input.css -c postcss.config.js -o example-output.css",
+    "lint": "eslint index.js",
+    "test": "jest"
+  }
+}
