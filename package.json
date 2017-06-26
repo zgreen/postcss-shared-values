@@ -32,6 +32,6 @@
   "scripts": {
     "example": "postcss example-input.css -c postcss.config.js -o example-output.css",
     "lint": "eslint index.js",
-    "test": "jest"
+    "test": "eslint index.js && jest"
   }
 }
