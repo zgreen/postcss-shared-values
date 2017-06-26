@@ -1,5 +1,7 @@
 # PostCSS Shared Values
 
+![Travis build status](https://travis-ci.org/zgreen/postcss-shared-values.svg?branch=master)
+
 A PostCSS plugin that allows for a comma-separated shorthand for properties that share the same value.
 
 ## Usage examples
