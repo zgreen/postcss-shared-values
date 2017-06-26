@@ -25,4 +25,4 @@ An example is available in this repository. Use `npm run example` or `yarn examp
 
 ## Is this a good idea?
 
-Maybe, maybe not. This plugin encourages an invalid CSS syntax, which may confusing to some users. However, it also encourages the user to explicitly group properties that are meant to share the same value, which may be helpful. It's also a convenient shorthand.
+Maybe, maybe not. This plugin encourages an invalid CSS syntax, which may confusing to some users. However, it also encourages the user to explicitly group properties that are meant to share the same value, which may be helpful from a code maintenance standpoint. It's also a convenient shorthand.
