@@ -4,6 +4,12 @@
 
 A PostCSS plugin that allows for a comma-separated shorthand for properties that share the same value.
 
+## Install
+
+`npm install --save-dev postcss-shared-values`
+or
+`yarn add -D postcss-shared-values`
+
 ## Usage examples
 
 ### Input CSS:

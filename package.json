@@ -1,6 +1,6 @@
 {
   "name": "postcss-shared-values",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comma-separated shorthand for CSS properties that share the same value.",
   "main": "index.js",
   "repository": {
